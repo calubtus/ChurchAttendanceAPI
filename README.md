@@ -5,7 +5,7 @@ The Church Attendance API is an application use to take the attendace for the Wa
 
 It is written in Python, and uses Tensorflow for determining the the amount of people present in the church and Tkinter for its graphical interface.
 
-The application connects to Raspberry Pis with camera modules that are atteched to the ceiling and requests images to process them in the local computer to determine attendace. The API handles the connectivity with the Pis, processing of the images and the outputting of result.
+The application connects to Raspberry Pis with camera modules that are atteched to the ceiling and requests images to process them in the local computer to determine attendace. The API handles the connectivity with the Pis, processing of the images and the outputting of result. At every algorithm run, the received images from the previous session are deleted.
 
 [![MenuDemo.jpg](https://i.postimg.cc/hPFJJmgw/MenuDemo.jpg)](https://postimg.cc/qgLBSzNX)
 
@@ -48,7 +48,7 @@ python ChurchAttendanceAPI.py
 
 ### Download the executable file
 
-The project can be run as an executable file for convenience purposes. Download [here](https://www.dropbox.com/s/qy2uhh94vxb8coo/ChurchAttendanceAPI.zip?dl=0)
+The project can be run as an executable stand alone file for convenience purposes. Download [here](https://www.dropbox.com/s/qy2uhh94vxb8coo/ChurchAttendanceAPI.zip?dl=0)
 
 Usage
 -----
