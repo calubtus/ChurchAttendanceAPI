@@ -9,7 +9,7 @@ The application connects to Raspberry Pis with camera modules that are atteched 
 
 [![MenuDemo.jpg](https://i.postimg.cc/hPFJJmgw/MenuDemo.jpg)](https://postimg.cc/qgLBSzNX)
 
-Watch a demo video
+[Watch a demo video](https://youtu.be/cN56GLGoSqw?t=476) 
 
 Installation
 ---------------------
@@ -48,7 +48,7 @@ python ChurchAttendanceAPI.py
 
 ### Download the executable file
 
-The project can be run as an executable stand alone file for convenience purposes. Download [here](https://www.dropbox.com/s/qy2uhh94vxb8coo/ChurchAttendanceAPI.zip?dl=0)
+The project can be run as an executable stand alone file for convenience purposes. Download [here](https://www.dropbox.com/s/c90r5cz0i4119va/ChurchAttendanceAPI.zip?dl=0)
 
 Usage
 -----
