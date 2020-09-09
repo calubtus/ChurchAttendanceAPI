@@ -1,9 +1,9 @@
 Church Attendance API
 =====================
 
-The Church Attendance API is an application use to take the attendace for the Walla Walla University Church.
+The Church Attendance API is an application use to take the attendance for the Walla Walla University Church.
 
-It is written in Python, and uses Tensorflow for determining the the amount of people present in the church and Tkinter for its graphical interface.
+It is written in Python, and uses Tensorflow for determining the amount of people present in the church and Tkinter for its graphical interface.
 
 The application connects to Raspberry Pis with camera modules that are atteched to the ceiling and requests images to process them in the local computer to determine attendace. The API handles the connectivity with the Pis, processing of the images and the outputting of result. At every algorithm run, the received images from the previous session are deleted.
 
